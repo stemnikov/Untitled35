@@ -1,1 +1,46 @@
-{    "toJSON": true,    "dbInfo": [{        "name": "Model",        "uuid": ""    }],    "extraProperties": {        "version": "1",        "classes": {        },        "model": {}    },    "dataClasses": []}
+﻿{
+	"toJSON": true,
+	"extraProperties": {
+		"version": "1",
+		"classes": {
+			"Users": {
+				"panelColor": "#B8CCE4",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 90,
+						"Y": 54
+					},
+					"pathVisible": true
+				}
+			}
+		},
+		"model": {
+			"workspaceLeft": 0,
+			"workspaceTop": 0
+		}
+	},
+	"dataClasses": [
+		{
+			"collectionName": "UsersCollection",
+			"className": "Users",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"type": "long",
+					"autosequence": "true",
+					"unique": "true",
+					"primKey": "true"
+				},
+				{
+					"name": "Name",
+					"scope": "public",
+					"type": "string",
+					"kind": "storage"
+				}
+			]
+		}
+	],
+	"type": []
+}
